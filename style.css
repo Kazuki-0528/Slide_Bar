@@ -27,3 +27,38 @@ main {
   width: 700px;
   margin: 0 auto;
 }
+
+.open,
+.close {
+  display: none;
+}
+
+input[type="checkbox"] {
+  position: absolute;
+  left: -50vw;
+}
+
+@media screen and (max-width: 1000px) {
+  main {
+    width: 100%;
+    padding-top: 50px;
+  }
+
+  .open,
+  .close {
+    display: block;
+  }
+
+  .open {
+    position: absolute;
+  }
+
+  aside {
+    position: absolute;
+    left: 500px;
+    /* left: -250px; */
+    height: 100%;
+    transition: all 0.2s;
+    background: #ffffff;
+  }
+}
