@@ -37,7 +37,7 @@ main {
 
 input[type="checkbox"] {
   position: absolute;
-  left: 50vw;
+  left: -50vw;
 }
 
 @media (max-width: 800px) {
@@ -73,4 +73,5 @@ input[type="checkbox"] {
     height: 100%;
     background-color: rgba(87, 87, 87, 0.571) !important;
   }
+  /* 🍔 */
 }
